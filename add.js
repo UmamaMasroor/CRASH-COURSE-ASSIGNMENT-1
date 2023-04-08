@@ -54,3 +54,40 @@
 //         console.log(i+ " is odd ")
 //     }
 // }
+
+// question # 5.............
+let students=[
+    {name: "Fatima", marks:[70,80,58,66,90] },
+    {name: "Aiza", marks:[88,50,44,82,40] },
+    {name: "Bilal", marks:[72,70,80,91,56] },
+];
+
+function average(nums){
+    let sum=0;
+    for(let i=0;i<nums.length;i++){
+        sum += nums[i];
+    }
+return sum/nums.length;
+}
+// loop through each student object
+for(let i=0; i< students.length; i++){
+    let student = students[i];
+    let avg =average(students.marks);
+    let grade;
+    if(avg<60){
+        grade="F";
+    }
+    else if (avg<70){
+        grade="D"
+    }
+    else if (avg<80){
+        grade="C"
+    }
+    else if (avg<90){
+        grade="B"
+    }
+    else{
+        grade="A"
+    }
+    console.log(student.name +" got an average of " + avg.toFixed(2)," which corresponds to a grade of " + grade);
+}
