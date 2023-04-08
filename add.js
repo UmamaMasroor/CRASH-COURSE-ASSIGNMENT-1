@@ -56,37 +56,52 @@
 // }
 
 // question # 5.............
-let students = [
-    { name: "Fatima", marks: [80, 75, 90, 85, 95] },
-    { name: "Aiza", marks: [70, 65, 80, 75, 85] },
-    { name: "Bilal", marks: [90, 85, 95, 90, 100] },
-  ];
+// let students = [
+//     { name: "Fatima", marks: [80, 75, 90, 85, 95] },
+//     { name: "Aiza", marks: [70, 65, 80, 75, 85] },
+//     { name: "Bilal", marks: [90, 85, 95, 90, 100] },
+//   ];
   
 
-  function average(nums) {
-    let sum = 0;
-    for (let i = 0; i < nums.length; i++) {
-      sum += nums[i];
-    }
-    return sum / nums.length;
-  }
+//   function average(nums) {
+//     let sum = 0;
+//     for (let i = 0; i < nums.length; i++) {
+//       sum += nums[i];
+//     }
+//     return sum / nums.length;
+//   }
   
-//   Loop through each student object
-  for (let i = 0; i < students.length; i++) {
-    let student = students[i];
-    let avg = average(student.marks);
-    let grade;
-    if (avg < 60) {
-      grade = "F";
-    } else if (avg < 70) {
-      grade = "D";
-    } else if (avg < 80) {
-      grade = "C";
-    } else if (avg < 90) {
-      grade = "B";
-    } else {
-      grade = "A";
-    }
-    console.log(student.name + " got an average of " + avg.toFixed(2) + ", which corresponds to a grade of " + grade);
-  }
+// //   Loop through each student object
+//   for (let i = 0; i < students.length; i++) {
+//     let student = students[i];
+//     let avg = average(student.marks);
+//     let grade;
+//     if (avg < 60) {
+//       grade = "F";
+//     } else if (avg < 70) {
+//       grade = "D";
+//     } else if (avg < 80) {
+//       grade = "C";
+//     } else if (avg < 90) {
+//       grade = "B";
+//     } else {
+//       grade = "A";
+//     }
+//     console.log(student.name + " got an average of " + avg.toFixed(2) + ", which corresponds to a grade of " + grade);
+//   }
   
+// question number 6..............
+// for (let i=1; i<=50; i++){
+//     if (i%3=== 0 && i % 5 ===0){
+//         console.log("FizzBuzz");
+//     }
+//     else if(i%3===0){
+//         console.log("Fizz");
+//     }
+//     else if(i%5===0){
+//         console.log("Buzz");
+//     }
+//     else{
+//         console.log(i);
+//     }
+// }
