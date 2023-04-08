@@ -25,25 +25,32 @@
 // }
 
 // question # 3.............
-let num1=prompt("Enter the frst number:");
-let num2=prompt("Enter the second number:");
-let num3=prompt("Enter the third number:");
-let num4=prompt("Enter the fourth number:");
-let num5=prompt("Enter the fifth number:");
+// let num1=prompt("Enter the frst number:");
+// let num2=prompt("Enter the second number:");
+// let num3=prompt("Enter the third number:");
+// let num4=prompt("Enter the fourth number:");
+// let num5=prompt("Enter the fifth number:");
 
-let max = num1;
-if(num2>max){
-    max = num2;
-}
-if(num3>max){
-    max = num3;
-}
-if(num4>max){
-    max = num4;
-}
-if(num5>max){
-    max = num5;
-}
-console.log("The largest number is " + max);
+// let max = num1;
+// if(num2>max){
+//     max = num2;
+// }
+// if(num3>max){
+//     max = num3;
+// }
+// if(num4>max){
+//     max = num4;
+// }
+// if(num5>max){
+//     max = num5;
+// }
+// console.log("The largest number is " + max);
 
-
+// question # 4.............
+// for(let i=0; i<=20; i++){
+//     if (i % 2 ===0){
+//         console.log(i+ " is even ");
+//     } else{
+//         console.log(i+ " is odd ")
+//     }
+// }
